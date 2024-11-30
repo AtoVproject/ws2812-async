@@ -17,5 +17,5 @@ repository = "https://github.com/kalkyl/ws2812-async"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-smart-leds = "0.4.0"
+smart-leds-trait = { version = "0.3.0", git = "https://github.com/AtoVproject/smart-leds-trait", branch = "feat/add-async-trait" }
 embedded-hal-async = { version = "1.0.0" }
